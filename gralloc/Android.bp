@@ -24,6 +24,7 @@ cc_library_shared {
         "-DLOG_TAG=\"qdgralloc\"",
         "-D__QTI_DISPLAY_GRALLOC__",
         "-Wno-sign-conversion",
+        "-Wno-format",
     ],
     srcs: [
         "gr_utils.cpp",
@@ -64,6 +65,7 @@ cc_library_shared {
     cflags: [
         "-DLOG_TAG=\"qdgralloc\"",
         "-D__QTI_DISPLAY_GRALLOC__",
+        "-Wno-format",
         "-Wno-sign-conversion",
     ],
     srcs: [
